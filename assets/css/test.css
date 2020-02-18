@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    border-top:3px solid #666 ;
+    border-bottom:2px solid #666 ;
+    height: 76px;
+    
+}
+.nav-wrapper{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    display: flex;
+    text-decoration: none;
+    font-size: 2.3em;
+    color: #666;
+}
+.logo:hover{
+    color: #333;
+}
+ul { 
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 1.2em;
+
+}
+li{
+    
+    padding-left: 30px;
+
+}
+li:hover a{
+    color: #337ab7;
+}
+li a{
+    text-decoration: none;
+    color: #333;
+}
+main{
+    background-image: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 3.4em;
+    font-weight: 300;
+    color: #fff;
+}
+p{
+    font-size: 16px;
+    margin-bottom: 2%;
+    color: #fff;
+
+}
+.baten-one{
+    background-color: #745cf9;
+    text-decoration: none;
+    padding: 20px 55px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.baten-one:hover{
+    background-color: #5234f9;
+    color: #fff;
+
+}
+.baten-tow{
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    padding: 20px 35px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fff;
+}
+.baten-tow:hover{
+    background-color: #fff;
+    color: #000;
+
+}
